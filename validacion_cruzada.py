@@ -20,7 +20,7 @@ def obtener_datos_oracle(conexion, nombre_pais):
     cursor.close()
     return pd.DataFrame(resultados, columns=["Año", "FDI"])
 
-conexion = conectar_oracle("system", "Success_0425")
+conexion = conectar_oracle("Usuario", "Contraseña")
 df_esp_oracle = obtener_datos_oracle(conexion, "España")
 conexion.close()
 

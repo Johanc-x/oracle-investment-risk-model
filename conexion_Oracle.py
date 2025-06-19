@@ -12,6 +12,6 @@ def conectar_oracle(usuario, contrasena, host="localhost", puerto=1521, sid="xe"
 
 
 if __name__ == "__main__":
-    conexion = conectar_oracle("system", "Success_0425")
+    conexion = conectar_oracle("Usuario", "Contraseña")
     if conexion:
         conexion.close()

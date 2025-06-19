@@ -78,7 +78,7 @@ if __name__ == "__main__":
     # # 3. Consulta cruzada desde Oracle
     # # ========================
 
-    conexion = conectar_oracle("system", "Success_0425")
+    conexion = conectar_oracle("usuario", "contraseña")
     if conexion:
         consultar_fdi_por_pais(conexion, "España")
         conexion.close()
