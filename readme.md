@@ -1,25 +1,37 @@
-# Modelo de análisis de inversión extranjera directa y riesgo financiero
-**Estructuras objeto-relacionales en Oracle SQL + visualización en Power BI**
+# Foreign Direct Investment & Financial Risk Analysis Model
 
-## Descripción
-Este proyecto utiliza el poder de las bases de datos objeto-relacionales de Oracle combinadas con análisis exploratorio en Python y visualización interactiva en Power BI para examinar la evolución de la inversión extranjera directa (FDI) en economías clave entre 2000 y 2023.
+**Oracle SQL Object-Relational Structures + Interactive Visualizations in Power BI**
 
-## Objetivos del proyecto
-- Analizar el comportamiento de la FDI como % del PIB por país y año
-- Identificar países con mayores y menores niveles de atracción de capital
-- Desarrollar un modelo base de riesgo financiero y dispersión
-- Visualizar los datos de forma dinámica para facilitar su interpretación
+## 🔍 Project Description
 
-## Resumen económico del análisis
-Irlanda presenta un comportamiento notable en la serie histórica de FDI (% del PIB), alcanzando un valor cercano al 74,75 %, lo cual la posiciona como el país con el mayor FDI registrado en el periodo. En contraste, Estados Unidos marca el mínimo positivo con un valor del 0,64 %. Esta dispersión sugiere diferencias estructurales significativas en los modelos económicos y fiscales. Una primera hipótesis indica que el modelo de baja tributación de Irlanda podría haber incentivado flujos de capital más volátiles. Se prevé complementar este análisis con variables adicionales en el futuro para obtener una visión más rigurosa del riesgo país.
+This project leverages the power of Oracle’s object-relational databases, combined with exploratory analysis in Python and interactive dashboards in Power BI, to analyze the evolution of Foreign Direct Investment (FDI) as a % of GDP across key economies between 2000 and 2023.
 
-## Herramientas utilizadas
-- **Oracle SQL Developer** – Modelado objeto-relacional y consultas avanzadas
-- **Python (Pandas, Matplotlib)** – Exploración, limpieza y validación de datos
-- **Power BI + DAX** – Dashboard visual e indicadores clave
-- **DAX Studio** – Evaluación de rendimiento de las medidas en Power BI
+## 🎯 Project Objectives
 
-## Datos
-Fuente: [Banco Mundial](https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS)  
-Métrica: FDI como % del PIB
+- Analyze historical FDI as % of GDP by country and year.
+- Identify countries with the highest and lowest capital attraction levels.
+- Develop a basic model of financial risk and investment dispersion.
+- Visualize data dynamically to enhance interpretation and decision-making.
 
+## 📊 Economic Summary
+
+Ireland shows a remarkable performance in the FDI (% of GDP) time series, reaching a peak near **74.75%**, positioning it as the country with the highest recorded FDI during the period. In contrast, the United States shows the lowest positive value at **0.64%**.
+
+This dispersion suggests structural differences in economic and fiscal models. A first hypothesis indicates that **Ireland’s low-tax model** could have encouraged more volatile capital flows. Future versions of this analysis may include additional economic variables to assess country risk more rigorously.
+
+## 🛠️ Tools & Technologies
+
+- **Oracle SQL Developer** – Object-relational modeling and advanced queries
+- **Python (Pandas, Matplotlib)** – Data cleaning, validation, and exploratory analysis
+- **Power BI + DAX** – Key metrics and dynamic dashboards
+- **DAX Studio** – Performance evaluation of Power BI measures
+
+## 🗂️ Data Source
+
+World Bank – [https://data.worldbank.org](https://data.worldbank.org)
+
+---
+
+> 📌 *This project is part of my Data Analyst portfolio. It combines financial logic with modern data tools to simulate real-world investment scenarios.*
+
+> ✅ *Available for full-time roles in Ireland and across Europe. Highly motivated to join data-driven teams where I can deliver value at the intersection of business and technology.*
